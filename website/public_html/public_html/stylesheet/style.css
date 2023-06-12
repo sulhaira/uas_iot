@@ -1,0 +1,159 @@
+body{
+    background-color: #f6eac2;
+}
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    color: black;
+ }
+
+.header{
+    background-color: #ecd5e3;
+    color: #fff;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.header-logo{
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px;
+}
+
+.header-list li{
+    float: left;
+    padding: 33px 20px;
+}
+
+.main{
+    padding: 20px 80px;
+}
+
+.contents_det{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.copy-container {
+    background-image: image("bg.jpeg");
+}
+
+.copy-container h1{
+    font-size: 100px;
+}
+
+.copy-container h2{
+    font-size: 60px;
+}
+
+.copy-container span{
+    color: #c189d4;
+}
+
+.contents {
+    height: 500px;
+    margin-top: 100px;
+}
+  
+.section-title {
+    border-bottom: 2px solid #ecd5e3;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+.contents-item {
+    float: left;
+    /* margin-right: 20px; */
+    margin-left: 50px;
+  }
+
+.contents-suhu {
+    align-items: center;
+    float: left;
+    padding: 20px 80px 20px 80px;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ecd5e3;
+    border-radius: 10px;
+  }
+
+.contents-kel {
+    align-items: center;
+    float: left;
+    padding: 20px 80px 20px 80px;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ecd5e3;
+    border-radius: 10px;
+  }
+
+.contents-led {
+    align-items: center;
+    float: left;
+    padding: 20px 80px 20px 80px;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ecd5e3;
+    border-radius: 10px;
+}
+
+.copy-container_det{
+font-size: 30px;
+text-align: center;
+
+}
+
+.contents-det{
+    align-items: center;
+    margin-left: 30px;
+}
+  
+.contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+.about {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.about p {
+ font-size: 30px;
+ text-align: center;
+}
+
+.footer{
+    background-color: #ecd5e3;
+    color: #fff;
+    height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-logo{
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+img {
+    border-radius: 8px;
+    width: 230px;
+    height: 230px;
+  }
