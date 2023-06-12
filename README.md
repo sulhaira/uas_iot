@@ -34,7 +34,7 @@ WOKWI
 
 WEBHOOK
 - namawebhook = data logging
-- # = topic
+- (#) = topic
 
 # ALUR PROJEK
 sensor DHT pada Wokwi mempublish angka suhu dan kelembaban setiap ruangan ke broker, kodular dan website database akan menerima data untuk ditampilkan. kontroling LED akan mengambil data yang dipublish kodular dikirimkan ke broker lalu LED pada wokwi akan menyala dan mati. data yang ditampilkan di website dan kodular adalah data terakhir yang dikirimkan oleh broker.
