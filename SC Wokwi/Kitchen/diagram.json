@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "author": "Anton Prafanto",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -130.72, "left": -222.25, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -75.41,
+      "left": -262.95,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -0.15,
+      "left": -290.6,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -158.37, "left": -101.27, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "led1:A", "esp:D5", "green", [ "v0" ] ],
+    [ "led1:C", "r1:1", "green", [ "v24.13", "h-49.29" ] ],
+    [ "r1:2", "esp:GND.2", "green", [ "v0" ] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "dht1:SDA", "esp:D2", "green", [ "v0" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
